@@ -61,6 +61,6 @@ public class menuPrincipal {
         System.out.println(genero1.getPais());
         System.out.println(genero1.getArtista());
         System.out.println(genero1.getFestival());
-
+//echo un cambio
     }
 }
