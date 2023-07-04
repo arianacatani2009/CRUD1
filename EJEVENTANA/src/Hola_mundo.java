@@ -24,6 +24,14 @@ public class Hola_mundo {
     private JSeparator espacio;
     private JSeparator espacioo;
     private JSeparator espaciooo;
+    private JToolBar.Separator sepa;
+    private JToolBar.Separator sip;
+    private JToolBar.Separator sep;
+    private JToolBar.Separator dor;
+    private JToolBar.Separator s;
+    private JToolBar.Separator e;
+    private JToolBar.Separator p;
+    private JToolBar.Separator a;
     int i = 0;
     public static void main(String[] args) {
         JFrame frame = new JFrame("Hola_mundo");
@@ -32,5 +40,6 @@ public class Hola_mundo {
         frame.pack();
         frame.setVisible(true);
     }
+
 }
 

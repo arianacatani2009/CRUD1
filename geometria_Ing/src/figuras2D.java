@@ -1,7 +1,7 @@
 public class figuras2D {
 
-    int nLados; // numero de lados
-    float lado; // longitud del lado
+    public float nLados; // numero de lados
+    public float lado; // longitud del lado
 
     public figuras2D(int nLados, float lado) {
         this.nLados = nLados;
@@ -32,17 +32,21 @@ public class figuras2D {
     }
 
     public int getnLados() {
-        return nLados;
+        return (int) nLados;
     }
     public float areaCuadrado(int lado){
         return this.lado*this.lado;
     };
-    private float perimetroCuadrado(){
-        return 0;
+    private float perimetroCuadrado(int lado){
+        return this.lado+this.lado+this.lado+this.lado;
     };
 
-    public float areaTrianngulo(){};
-    public float pwrimwtroTriangulo(){};
+    public float areaTrianngulo(int lado){
+        return (this.lado*this.lado)/2;
+    };
+    public float perimetroTriangulo(int lado){
+        return this.lado+this.lado+this.lado;
+    };
 
 
 
